@@ -1,24 +1,24 @@
-# eslint-plugin-xbb
+# @xbb/eslint-plugin
 
 eslint plugin for xbb
 
-## Installation
+## 安装
 
-You'll first need to install [ESLint](https://eslint.org/):
+第一步需要安装 [ESLint](https://eslint.org/):
 
 ```sh
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-xbb`:
+接下来，安装 `@xbb/eslint-plugin`:
 
 ```sh
-npm install eslint-plugin-xbb --save-dev
+npm i @xbb/eslint-plugin --save-dev
 ```
 
-## Usage
+## 使用方法
 
-引入自带的`config`到你的`.eslintrc`配置文件得`extends`中
+引入自带的`config`到你的`.eslintrc`配置文件的`extends`中
 
 ```Json
 {

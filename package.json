@@ -9,6 +9,9 @@
   ],
   "author": "zhumingpeng",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier lib --write",

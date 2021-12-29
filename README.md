@@ -18,29 +18,15 @@ npm install eslint-plugin-xbb --save-dev
 
 ## Usage
 
-Add `xbb` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+引入自带的`config`到你的`.eslintrc`配置文件得`extends`中
 
-```json
+```Json
 {
-    "plugins": [
-        "xbb"
+    "extends": [
+        "some-other-config-you-use",
+        "plugin:@xbb/vue"
     ]
 }
 ```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "xbb/rule-name": 2
-    }
-}
-```
-
-## Supported Rules
-
-* Fill in provided rules here
 
 

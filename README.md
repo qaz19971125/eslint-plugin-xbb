@@ -18,14 +18,20 @@ npm i @xbb/eslint-plugin --save-dev
 
 ## 使用方法
 
-引入自带的`config`到你的`.eslintrc`配置文件的`extends`中
+使用 `.eslintrc.*` 文件来配置`eslint`规则。请查看`eslint`官方的教程: https://eslint.org/docs/user-guide/configuring
 
-```Json
-{
-    "extends": [
-        "some-other-config-you-use",
-        "plugin:@xbb/vue"
-    ]
+以 `.eslintrc.js` 举例：
+```JavaScript
+module.exports = {
+  extends: [
+    // 添加其他config，比如:
+    // 'eslint:recommended',
+    'plugin:@xbb/recommended',
+  ],
+  rules: {
+    // 在这里重写/添加规则，比如:
+    // 'vue/no-unused-vars': 'error'
+  }
 }
 ```
 

@@ -18,10 +18,11 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
-    "requireindex": "^1.2.0",
     "eslint-config-prettier": "latest",
+    "eslint-plugin-import": "latest",
     "eslint-plugin-sonarjs": "latest",
-    "eslint-plugin-vue": "latest"
+    "eslint-plugin-vue": "latest",
+    "requireindex": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1",

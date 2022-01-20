@@ -1,6 +1,6 @@
 {
   "name": "@xbb/eslint-plugin",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "eslint plugin for xbb",
   "keywords": [
     "eslint",

@@ -1,6 +1,6 @@
 {
   "name": "@xbb/eslint-plugin",
-  "version": "0.11.0",
+  "version": "1.0.0",
   "description": "eslint plugin for xbb",
   "homepage": "http://192.168.10.6/FrontEnd/eslint-plugin-xbb",
   "keywords": [
@@ -19,10 +19,10 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-import": "latest",
-    "eslint-plugin-sonarjs": "latest",
-    "eslint-plugin-vue": "latest",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-sonarjs": "^0.12.0",
+    "eslint-plugin-vue": "^8.5.0",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
